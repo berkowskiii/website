@@ -1,0 +1,448 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 100px 0;
+    background: #122e44;
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+.section_title h2 {
+    position: relative;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.section_title h2:hover {
+    background-color: #24caac;
+}
+
+
+/* header */
+
+header {
+    background: rgb(44, 37, 37);
+    border-bottom: 1px solid rgba((238), 238, 238, 0.801);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li a {
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.nav_links li a:hover {
+    background: #24caac;
+}
+
+.logo h2 a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* ANASAYFA */
+
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child_anasayfa {
+    flex-basis: 45%;
+}
+
+.child_anasayfa img {
+    width: 573.5px;
+    height: 629.5px;
+    border: 2px solid white;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.child_anasayfa h1 {
+    font-size: 50px;
+    color: #24caac;
+}
+
+.span_child {
+    color: palevioletred;
+}
+
+.child_anasayfa p {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #24caac;
+    padding: 10px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    border: 1px solid #24caac;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.btn:hover {
+    background: transparent;
+}
+
+
+/* YAZILIMLAR */
+
+.innersoftware {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.innersoftware_child {
+    flex-basis: 31%;
+    color: white;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.innersoftware_child:hover {
+    border: 1px solid #24caac;
+}
+
+.innersoftware_child .icon {
+    font-size: 25px;
+    color: #24caac;
+}
+
+.innersoftware_child h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.innersoftware_child p {
+    font-size: 15px;
+}
+
+
+/* BİLDİĞİM DİLLER  */
+
+.inner_languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_languages {
+    flex-basis: 25%;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.child_languages p {
+    font-size: medium;
+}
+
+.child_languages:hover {
+    border: 1px solid #24caac;
+}
+
+.child_languages .detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_languages .detail ul {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 30%;
+}
+
+.child_languages .detail ul li:nth-child(-n+3) {
+    color: gold;
+}
+
+.languages_img img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.languages_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* PROJELERİM */
+
+.inner_projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_projects {
+    flex-basis: 25%;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid transparent;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.child_projects p {
+    font-size: medium;
+}
+
+.child_projects:hover {
+    border: 1px solid #24caac;
+}
+
+.projects_img img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin: 10px auto;
+}
+
+.projects_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* HAKKIMDA */
+
+.detail_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    padding-left: 40px;
+    width: 90%;
+    color: white;
+}
+
+.left_column,
+.right_column {
+    width: 48%;
+}
+
+.left_column h3,
+.right_column h3 {
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.left_column p,
+.right_column p {
+    margin-top: 10px;
+}
+
+
+/* .detail_info {
+    margin-top: 20px;
+}
+
+.detail_info h3 {
+    margin-bottom: 10px;
+    line-height: 1.5;
+} */
+
+
+/* İLETİŞİM  */
+
+.inner_contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child_contact {
+    flex-basis: 45%;
+}
+
+.child_contact form {
+    padding: 50px 40px;
+    background: #2F363E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.child_contact img {
+    width: 700px;
+    height: 480px;
+}
+
+.child_contact form input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292D;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    color: white;
+}
+
+.child_contact form input,
+textarea:focus {
+    color: white;
+}
+
+.child_contact form input:focus {
+    letter-spacing: 2px;
+}
+
+.child_contact form textarea:focus {
+    letter-spacing: 2px;
+}
+
+.child_contact form input:last-child {
+    margin-bottom: 0;
+    background: #24caac;
+    border: 1px solid #24caac;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.child_contact form input:last-child:hover {
+    background: transparent;
+    color: white;
+}
